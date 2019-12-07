@@ -8,3 +8,7 @@ for p = 1:100   %100 as size of n%
     end
 end
 stem(n,f)
+fcn1 = 'n^2-7';
+text(9,74,fcn1,'VerticalAlignment','top')
+fcn2 = 'f(n-10)';
+text(99,7914,fcn2,'HorizontalAlignment','right')
