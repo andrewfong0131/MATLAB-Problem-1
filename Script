@@ -1,7 +1,7 @@
 n = [0:99];
 y = n.^2 - 7;
 for p = 1:100
-    if n(p) < 9
+    if n(p) <= 9
         f(p) = y(p);
     elseif n(p) >= 10
         f(p) = y(p-10);
